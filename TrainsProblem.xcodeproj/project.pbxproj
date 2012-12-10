@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E62338157CEC19007DEEC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E62337157CEC19007DEEC0 /* UIKit.framework */; };
+		55E6233A157CEC1A007DEEC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E62339157CEC19007DEEC0 /* Foundation.framework */; };
+		55E6233C157CEC1A007DEEC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E6233B157CEC1A007DEEC0 /* CoreGraphics.framework */; };
+		55E62342157CEC1A007DEEC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E62340157CEC1A007DEEC0 /* InfoPlist.strings */; };
+		55E62344157CEC1A007DEEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62343157CEC1A007DEEC0 /* main.m */; };
+		55E62348157CEC1A007DEEC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62347157CEC1A007DEEC0 /* AppDelegate.m */; };
+		55E6234D157CEC1A007DEEC0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E6234C157CEC1A007DEEC0 /* first.png */; };
+		55E6234F157CEC1A007DEEC0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E6234E157CEC1A007DEEC0 /* first@2x.png */; };
+		55E62354157CEC1A007DEEC0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E62353157CEC1A007DEEC0 /* second.png */; };
+		55E62356157CEC1A007DEEC0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E62355157CEC1A007DEEC0 /* second@2x.png */; };
+		55E6236A157CEC1A007DEEC0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E62369157CEC1A007DEEC0 /* SenTestingKit.framework */; };
+		55E6236B157CEC1A007DEEC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E62337157CEC19007DEEC0 /* UIKit.framework */; };
+		55E6236C157CEC1A007DEEC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E62339157CEC19007DEEC0 /* Foundation.framework */; };
+		55E62374157CEC1A007DEEC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E62372157CEC1A007DEEC0 /* InfoPlist.strings */; };
+		55E62377157CEC1A007DEEC0 /* TrainsProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62376157CEC1A007DEEC0 /* TrainsProblemTests.m */; };
+		55E6238E157CEC67007DEEC0 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 55E6238D157CEC67007DEEC0 /* readme */; };
+		55E62393157CED33007DEEC0 /* TPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62392157CED33007DEEC0 /* TPHelper.m */; };
+		55E6239A157D0050007DEEC0 /* TPTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62399157D0050007DEEC0 /* TPTrainAlgorithm.m */; };
+		55E6239D157D0113007DEEC0 /* TPTrainParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6239C157D0113007DEEC0 /* TPTrainParameter.m */; };
+		55E623A3157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623A2157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.m */; };
+		55E623A9157D2E49007DEEC0 /* TPLessTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623A8157D2E49007DEEC0 /* TPLessTrainAlgorithm.m */; };
+		55E623AC157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623AB157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.m */; };
+		55E623AF157D3297007DEEC0 /* TPShortestTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623AE157D3297007DEEC0 /* TPShortestTrainAlgorithm.m */; };
+		55E623B2157D3624007DEEC0 /* TPDifferentTrainAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623B1157D3624007DEEC0 /* TPDifferentTrainAlgorithm.m */; };
+		55E623B6157D3995007DEEC0 /* TPTrainFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E623B5157D3995007DEEC0 /* TPTrainFactory.m */; };
+		55E623B9157D415D007DEEC0 /* TPCountDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62382157CEC3C007DEEC0 /* TPCountDistanceViewController.m */; };
+		55E623BA157D4160007DEEC0 /* TPCountStopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62384157CEC3C007DEEC0 /* TPCountStopsViewController.m */; };
+		55E623BB157D4163007DEEC0 /* TPCountShortestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62386157CEC3C007DEEC0 /* TPCountShortestViewController.m */; };
+		55E623BC157D4166007DEEC0 /* TPCountDifferentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E62388157CEC3C007DEEC0 /* TPCountDifferentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E6236D157CEC1A007DEEC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E6232A157CEC19007DEEC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E62332157CEC19007DEEC0;
+			remoteInfo = TrainsProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E62333157CEC19007DEEC0 /* TrainsProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainsProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E62337157CEC19007DEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55E62339157CEC19007DEEC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55E6233B157CEC1A007DEEC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55E6233F157CEC1A007DEEC0 /* TrainsProblem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainsProblem-Info.plist"; sourceTree = "<group>"; };
+		55E62341157CEC1A007DEEC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E62343157CEC1A007DEEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E62345157CEC1A007DEEC0 /* TrainsProblem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainsProblem-Prefix.pch"; sourceTree = "<group>"; };
+		55E62346157CEC1A007DEEC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E62347157CEC1A007DEEC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E6234C157CEC1A007DEEC0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		55E6234E157CEC1A007DEEC0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		55E62353157CEC1A007DEEC0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		55E62355157CEC1A007DEEC0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		55E62368157CEC1A007DEEC0 /* TrainsProblemTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainsProblemTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E62369157CEC1A007DEEC0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		55E62371157CEC1A007DEEC0 /* TrainsProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainsProblemTests-Info.plist"; sourceTree = "<group>"; };
+		55E62373157CEC1A007DEEC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55E62375157CEC1A007DEEC0 /* TrainsProblemTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainsProblemTests.h; sourceTree = "<group>"; };
+		55E62376157CEC1A007DEEC0 /* TrainsProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainsProblemTests.m; sourceTree = "<group>"; };
+		55E62381157CEC3C007DEEC0 /* TPCountDistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCountDistanceViewController.h; sourceTree = "<group>"; };
+		55E62382157CEC3C007DEEC0 /* TPCountDistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCountDistanceViewController.m; sourceTree = "<group>"; };
+		55E62383157CEC3C007DEEC0 /* TPCountStopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCountStopsViewController.h; sourceTree = "<group>"; };
+		55E62384157CEC3C007DEEC0 /* TPCountStopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCountStopsViewController.m; sourceTree = "<group>"; };
+		55E62386157CEC3C007DEEC0 /* TPCountShortestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCountShortestViewController.m; sourceTree = "<group>"; };
+		55E62387157CEC3C007DEEC0 /* TPCountDifferentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPCountDifferentViewController.h; sourceTree = "<group>"; };
+		55E62388157CEC3C007DEEC0 /* TPCountDifferentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPCountDifferentViewController.m; sourceTree = "<group>"; };
+		55E6238D157CEC67007DEEC0 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		55E62391157CED33007DEEC0 /* TPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPHelper.h; sourceTree = "<group>"; };
+		55E62392157CED33007DEEC0 /* TPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPHelper.m; sourceTree = "<group>"; };
+		55E62398157D0050007DEEC0 /* TPTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E62399157D0050007DEEC0 /* TPTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E6239B157D0113007DEEC0 /* TPTrainParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTrainParameter.h; sourceTree = "<group>"; };
+		55E6239C157D0113007DEEC0 /* TPTrainParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTrainParameter.m; sourceTree = "<group>"; };
+		55E623A1157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDistanceTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E623A2157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDistanceTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E623A7157D2E49007DEEC0 /* TPLessTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPLessTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E623A8157D2E49007DEEC0 /* TPLessTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPLessTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E623AA157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPGreaterTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E623AB157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPGreaterTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E623AD157D3297007DEEC0 /* TPShortestTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPShortestTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E623AE157D3297007DEEC0 /* TPShortestTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPShortestTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E623B0157D3624007DEEC0 /* TPDifferentTrainAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPDifferentTrainAlgorithm.h; sourceTree = "<group>"; };
+		55E623B1157D3624007DEEC0 /* TPDifferentTrainAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPDifferentTrainAlgorithm.m; sourceTree = "<group>"; };
+		55E623B4157D3995007DEEC0 /* TPTrainFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTrainFactory.h; sourceTree = "<group>"; };
+		55E623B5157D3995007DEEC0 /* TPTrainFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTrainFactory.m; sourceTree = "<group>"; };
+		55E623B7157D4152007DEEC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/TPCountShortestViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E62330157CEC19007DEEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E62338157CEC19007DEEC0 /* UIKit.framework in Frameworks */,
+				55E6233A157CEC1A007DEEC0 /* Foundation.framework in Frameworks */,
+				55E6233C157CEC1A007DEEC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E62364157CEC1A007DEEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6236A157CEC1A007DEEC0 /* SenTestingKit.framework in Frameworks */,
+				55E6236B157CEC1A007DEEC0 /* UIKit.framework in Frameworks */,
+				55E6236C157CEC1A007DEEC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E62328157CEC19007DEEC0 = {
+			isa = PBXGroup;
+			children = (
+				55E6233D157CEC1A007DEEC0 /* TrainsProblem */,
+				55E6236F157CEC1A007DEEC0 /* TrainsProblemTests */,
+				55E62336157CEC19007DEEC0 /* Frameworks */,
+				55E62334157CEC19007DEEC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E62334157CEC19007DEEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E62333157CEC19007DEEC0 /* TrainsProblem.app */,
+				55E62368157CEC1A007DEEC0 /* TrainsProblemTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E62336157CEC19007DEEC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E62337157CEC19007DEEC0 /* UIKit.framework */,
+				55E62339157CEC19007DEEC0 /* Foundation.framework */,
+				55E6233B157CEC1A007DEEC0 /* CoreGraphics.framework */,
+				55E62369157CEC1A007DEEC0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E6233D157CEC1A007DEEC0 /* TrainsProblem */ = {
+			isa = PBXGroup;
+			children = (
+				55E623B3157D3957007DEEC0 /* Factory */,
+				55E62397157D0012007DEEC0 /* Strategy */,
+				55E62390157CED0E007DEEC0 /* Helper */,
+				55E6238F157CECF7007DEEC0 /* TrainObject */,
+				55E62380157CEC2F007DEEC0 /* ViewControllers */,
+				55E62346157CEC1A007DEEC0 /* AppDelegate.h */,
+				55E62347157CEC1A007DEEC0 /* AppDelegate.m */,
+				55E6234C157CEC1A007DEEC0 /* first.png */,
+				55E6234E157CEC1A007DEEC0 /* first@2x.png */,
+				55E62353157CEC1A007DEEC0 /* second.png */,
+				55E62355157CEC1A007DEEC0 /* second@2x.png */,
+				55E6233E157CEC1A007DEEC0 /* Supporting Files */,
+			);
+			path = TrainsProblem;
+			sourceTree = "<group>";
+		};
+		55E6233E157CEC1A007DEEC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E6238D157CEC67007DEEC0 /* readme */,
+				55E6233F157CEC1A007DEEC0 /* TrainsProblem-Info.plist */,
+				55E62340157CEC1A007DEEC0 /* InfoPlist.strings */,
+				55E62343157CEC1A007DEEC0 /* main.m */,
+				55E62345157CEC1A007DEEC0 /* TrainsProblem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E6236F157CEC1A007DEEC0 /* TrainsProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E62375157CEC1A007DEEC0 /* TrainsProblemTests.h */,
+				55E62376157CEC1A007DEEC0 /* TrainsProblemTests.m */,
+				55E62370157CEC1A007DEEC0 /* Supporting Files */,
+			);
+			path = TrainsProblemTests;
+			sourceTree = "<group>";
+		};
+		55E62370157CEC1A007DEEC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E62371157CEC1A007DEEC0 /* TrainsProblemTests-Info.plist */,
+				55E62372157CEC1A007DEEC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E62380157CEC2F007DEEC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55E62381157CEC3C007DEEC0 /* TPCountDistanceViewController.h */,
+				55E62382157CEC3C007DEEC0 /* TPCountDistanceViewController.m */,
+				55E62383157CEC3C007DEEC0 /* TPCountStopsViewController.h */,
+				55E62384157CEC3C007DEEC0 /* TPCountStopsViewController.m */,
+				55E623B8157D4152007DEEC0 /* TPCountShortestViewController.h */,
+				55E62386157CEC3C007DEEC0 /* TPCountShortestViewController.m */,
+				55E62387157CEC3C007DEEC0 /* TPCountDifferentViewController.h */,
+				55E62388157CEC3C007DEEC0 /* TPCountDifferentViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55E6238F157CECF7007DEEC0 /* TrainObject */ = {
+			isa = PBXGroup;
+			children = (
+				55E6239B157D0113007DEEC0 /* TPTrainParameter.h */,
+				55E6239C157D0113007DEEC0 /* TPTrainParameter.m */,
+			);
+			name = TrainObject;
+			sourceTree = "<group>";
+		};
+		55E62390157CED0E007DEEC0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				55E62391157CED33007DEEC0 /* TPHelper.h */,
+				55E62392157CED33007DEEC0 /* TPHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		55E62397157D0012007DEEC0 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				55E62398157D0050007DEEC0 /* TPTrainAlgorithm.h */,
+				55E62399157D0050007DEEC0 /* TPTrainAlgorithm.m */,
+				55E623A1157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.h */,
+				55E623A2157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.m */,
+				55E623A7157D2E49007DEEC0 /* TPLessTrainAlgorithm.h */,
+				55E623A8157D2E49007DEEC0 /* TPLessTrainAlgorithm.m */,
+				55E623AA157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.h */,
+				55E623AB157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.m */,
+				55E623AD157D3297007DEEC0 /* TPShortestTrainAlgorithm.h */,
+				55E623AE157D3297007DEEC0 /* TPShortestTrainAlgorithm.m */,
+				55E623B0157D3624007DEEC0 /* TPDifferentTrainAlgorithm.h */,
+				55E623B1157D3624007DEEC0 /* TPDifferentTrainAlgorithm.m */,
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		55E623B3157D3957007DEEC0 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				55E623B4157D3995007DEEC0 /* TPTrainFactory.h */,
+				55E623B5157D3995007DEEC0 /* TPTrainFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E62332157CEC19007DEEC0 /* TrainsProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6237A157CEC1A007DEEC0 /* Build configuration list for PBXNativeTarget "TrainsProblem" */;
+			buildPhases = (
+				55E6232F157CEC19007DEEC0 /* Sources */,
+				55E62330157CEC19007DEEC0 /* Frameworks */,
+				55E62331157CEC19007DEEC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainsProblem;
+			productName = TrainsProblem;
+			productReference = 55E62333157CEC19007DEEC0 /* TrainsProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E62367157CEC1A007DEEC0 /* TrainsProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6237D157CEC1A007DEEC0 /* Build configuration list for PBXNativeTarget "TrainsProblemTests" */;
+			buildPhases = (
+				55E62363157CEC1A007DEEC0 /* Sources */,
+				55E62364157CEC1A007DEEC0 /* Frameworks */,
+				55E62365157CEC1A007DEEC0 /* Resources */,
+				55E62366157CEC1A007DEEC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E6236E157CEC1A007DEEC0 /* PBXTargetDependency */,
+			);
+			name = TrainsProblemTests;
+			productName = TrainsProblemTests;
+			productReference = 55E62368157CEC1A007DEEC0 /* TrainsProblemTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E6232A157CEC19007DEEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = freelancer;
+			};
+			buildConfigurationList = 55E6232D157CEC19007DEEC0 /* Build configuration list for PBXProject "TrainsProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55E62328157CEC19007DEEC0;
+			productRefGroup = 55E62334157CEC19007DEEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E62332157CEC19007DEEC0 /* TrainsProblem */,
+				55E62367157CEC1A007DEEC0 /* TrainsProblemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E62331157CEC19007DEEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E62342157CEC1A007DEEC0 /* InfoPlist.strings in Resources */,
+				55E6234D157CEC1A007DEEC0 /* first.png in Resources */,
+				55E6234F157CEC1A007DEEC0 /* first@2x.png in Resources */,
+				55E62354157CEC1A007DEEC0 /* second.png in Resources */,
+				55E62356157CEC1A007DEEC0 /* second@2x.png in Resources */,
+				55E6238E157CEC67007DEEC0 /* readme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E62365157CEC1A007DEEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E62374157CEC1A007DEEC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55E62366157CEC1A007DEEC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E6232F157CEC19007DEEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E62344157CEC1A007DEEC0 /* main.m in Sources */,
+				55E62348157CEC1A007DEEC0 /* AppDelegate.m in Sources */,
+				55E62393157CED33007DEEC0 /* TPHelper.m in Sources */,
+				55E6239A157D0050007DEEC0 /* TPTrainAlgorithm.m in Sources */,
+				55E6239D157D0113007DEEC0 /* TPTrainParameter.m in Sources */,
+				55E623A3157D2C3A007DEEC0 /* TPDistanceTrainAlgorithm.m in Sources */,
+				55E623A9157D2E49007DEEC0 /* TPLessTrainAlgorithm.m in Sources */,
+				55E623AC157D31E8007DEEC0 /* TPGreaterTrainAlgorithm.m in Sources */,
+				55E623AF157D3297007DEEC0 /* TPShortestTrainAlgorithm.m in Sources */,
+				55E623B2157D3624007DEEC0 /* TPDifferentTrainAlgorithm.m in Sources */,
+				55E623B6157D3995007DEEC0 /* TPTrainFactory.m in Sources */,
+				55E623B9157D415D007DEEC0 /* TPCountDistanceViewController.m in Sources */,
+				55E623BA157D4160007DEEC0 /* TPCountStopsViewController.m in Sources */,
+				55E623BB157D4163007DEEC0 /* TPCountShortestViewController.m in Sources */,
+				55E623BC157D4166007DEEC0 /* TPCountDifferentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E62363157CEC1A007DEEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E62377157CEC1A007DEEC0 /* TrainsProblemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E6236E157CEC1A007DEEC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E62332157CEC19007DEEC0 /* TrainsProblem */;
+			targetProxy = 55E6236D157CEC1A007DEEC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E62340157CEC1A007DEEC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E62341157CEC1A007DEEC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55E62372157CEC1A007DEEC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E62373157CEC1A007DEEC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55E623B8157D4152007DEEC0 /* TPCountShortestViewController.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E623B7157D4152007DEEC0 /* en */,
+			);
+			name = TPCountShortestViewController.h;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E62378157CEC1A007DEEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55E62379157CEC1A007DEEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E6237B157CEC1A007DEEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainsProblem/TrainsProblem-Prefix.pch";
+				INFOPLIST_FILE = "TrainsProblem/TrainsProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55E6237C157CEC1A007DEEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainsProblem/TrainsProblem-Prefix.pch";
+				INFOPLIST_FILE = "TrainsProblem/TrainsProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		55E6237E157CEC1A007DEEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainsProblem.app/TrainsProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainsProblem/TrainsProblem-Prefix.pch";
+				INFOPLIST_FILE = "TrainsProblemTests/TrainsProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		55E6237F157CEC1A007DEEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrainsProblem.app/TrainsProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainsProblem/TrainsProblem-Prefix.pch";
+				INFOPLIST_FILE = "TrainsProblemTests/TrainsProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E6232D157CEC19007DEEC0 /* Build configuration list for PBXProject "TrainsProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E62378157CEC1A007DEEC0 /* Debug */,
+				55E62379157CEC1A007DEEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6237A157CEC1A007DEEC0 /* Build configuration list for PBXNativeTarget "TrainsProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6237B157CEC1A007DEEC0 /* Debug */,
+				55E6237C157CEC1A007DEEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55E6237D157CEC1A007DEEC0 /* Build configuration list for PBXNativeTarget "TrainsProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6237E157CEC1A007DEEC0 /* Debug */,
+				55E6237F157CEC1A007DEEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E6232A157CEC19007DEEC0 /* Project object */;
+}
